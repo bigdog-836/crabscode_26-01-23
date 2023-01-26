@@ -9,6 +9,8 @@
 10) conda install tqdm
 11) conda install numpy
 12) conda install matplotlib
+13) conda create -p /nesi/nobackup/uoo0304/ryan/bin/crabs_packages
+14) conda activate /nesi/nobackup/uoo03004/ryan/bin/crabs_packages
 
 ### Installation - Need to be run everytime
 
@@ -17,3 +19,4 @@
 4) module load MUSCLE/3.8.1551
 5) module load Miniconda3/4.12.0
 7) conda activate crabs
+15) conda activate /nesi/nobackup/uoo03004/ryan/bin/crabs_packages
