@@ -18,7 +18,6 @@
 3) module load VSEARCH/2.21.1-GCC-11.3.0
 4) module load MUSCLE/3.8.1551
 5) module load Miniconda3/4.12.0
-7) conda activate crabs
 15) conda activate /nesi/nobackup/uoo03004/ryan/bin/crabs_packages
 17) export PATH="/nesi/nobackup/uoo03004/ryan/bin/reference_database_creator:$PATH"
 18) 
