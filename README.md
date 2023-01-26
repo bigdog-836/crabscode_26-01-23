@@ -33,3 +33,7 @@
 ### Now start EMBL
 
 21) crabs db_download --source embl --database 'VRT*' --output embl_vrt.fasta --keep_original yes
+
+## Now start BOLD
+
+22)  crabs db_download --source bold --database 'Actinopterygii|Petromyzontiformes' --output bold_petromyzontiformes_hyperoartia.fasta --keep_original yes
