@@ -1,1 +1,16 @@
 # crabscode_26-01-23
+
+### Installation - One and done
+
+1) git clone https://github.com/gjeunen/reference_database_creator.git
+5) module load Miniconda3/4.12.0
+6) conda create -n crabs
+8) conda install argparse
+9) conda install biopython
+
+### Installation - Need to be run everytime
+
+2) module load cutadapt/4.1-gimkl-2022a-Python-3.10.5
+3) module load VSEARCH/2.21.1-GCC-11.3.0
+4) module load MUSCLE/3.8.1551
+7) conda activate crabs
