@@ -27,13 +27,15 @@
 19) crabs db_download --source mitofish --output mitofish.fasta --keep_original yes
 
 ### Now start NCBI
-
+#12S
 20) crabs db_download --source ncbi --database nucleotide --query '12S[All Fields] AND txid7898[Organism:exp] AND mitochondrion[filter]' --output 12S_NCBI_fish.fasta --keep_original yes --email ryan.r.easton@gmail.com --batchsize 5000
+#COI
+21) crabs db_download --source ncbi --database nucleotide --query 'COI[All Fields] AND txid7898[Organism:exp] AND mitochondrion[filter]' --output COI_NCBI_fish.fasta --keep_original yes --email ryan.r.easton@gmail.com --batchsize 5000
 
-### Now start EMBL
+### Now start EMBL (sbatch submission)
 
 21) crabs db_download --source embl --database 'VRT*' --output embl_vrt.fasta --keep_original yes
 
-## Now start BOLD
+## Now start BOLD 
 
 22)  crabs db_download --source bold --database 'Actinopterygii|Petromyzontiformes' --output bold_fish_lamprey.fasta --keep_original yes
