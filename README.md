@@ -39,6 +39,10 @@
 
 22) crabs db_download --source ncbi --database nucleotide --query 'CytB[All Fields] AND txid7898[Organism:exp] AND mitochondrion[filter]' --output CytB_NCBI_fish.fasta --keep_original yes --email ryan.r.easton@gmail.com --batchsize 5000
 
+#16S
+
+23) crabs db_download --source ncbi --database nucleotide --query '16S[All Fields] AND txid7898[Organism:exp] AND mitochondrion[filter]' --output 16S_NCBI_fish.fasta --keep_original yes --email ryan.r.easton@gmail.com --batchsize 5000
+
 ### Now start EMBL (sbatch submission)
 
 21) crabs db_download --source embl --database 'VRT*' --output embl_vrt.fasta --keep_original yes
