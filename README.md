@@ -50,3 +50,7 @@
 ## Now start BOLD 
 
 22)  crabs db_download --source bold --database 'Actinopterygii|Petromyzontiformes' --output bold_fish_lamprey.fasta --keep_original yes
+
+## Assign taxonomy
+
+24) crabs db_download --source taxonomy
