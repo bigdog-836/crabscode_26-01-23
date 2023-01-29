@@ -1,4 +1,5 @@
 # crabscode_26-01-23
+## Following https://github.com/gjeunen/reference_database_creator#manual-installation
 ## if I see (base), type: conda deactivate (May need to do this twice)
 ### Installation - One and done
 
