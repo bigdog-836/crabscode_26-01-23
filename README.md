@@ -58,4 +58,4 @@
 
 ## db_merge
 
-25) crabs db_merge --output merged_total.fasta --uniq no --input mitofish.fasta 12S_NCBI_fish.fasta bold_fish_lamprey.fasta COI_NCBI_fish.fasta CytB_NCBI_fish.fasta 16S_NCBI_fish.fasta
+25) crabs db_merge --output merged_total.fasta --uniq no --input mitofish.fasta 12S_NCBI_fish.fasta bold_fish_lamprey.fasta COI_NCBI_fish.fasta CytB_NCBI_fish.fasta 16S_NCBI_fish.fasta embl_vrt.fasta
