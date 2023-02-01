@@ -60,6 +60,6 @@
 
 25) crabs db_merge --output merged_total.fasta --uniq no --input mitofish.fasta 12S_NCBI_fish.fasta bold_fish_lamprey.fasta COI_NCBI_fish.fasta CytB_NCBI_fish.fasta 16S_NCBI_fish.fasta embl_vrt.fasta
 
-## insilico_pcr
+## insilico_pcr (Table 1 https://onlinelibrary-wiley-com.ezproxy.otago.ac.nz/doi/pdf/10.1002/ece3.7658)
 
-26) crabs insilico_pcr --input merged_total.fasta --output output.merged_total.fasta --fwd AGTC --rev ACTG --error 4.5
+26) crabs insilico_pcr --input merged_total.fasta --output pcr_16s_Ac16s.fasta --fwd CCTTTTGCATCATGATTTAGC --rev CAGGTGGCTGCTTTTAGGC --error 4.5
