@@ -66,4 +66,4 @@
 
 ## pga
 
-27) crabs pga --input input.fasta --output output.fasta --database insilico_pcr_database.fasta --fwd AGTC --rev ATGC --speed medium --percid 0.95 --coverage 0.95 --filter_method relaxed
+27) crabs pga --input ../merged_total.fasta --database pcr_Cytb_Tania.fasta --output pga_Cytb_Tania.fasta --fwd GAAAAACCACCGTTGTTATTCA --rev CGACTTCCGGATTACAAGACC --speed medium --percid 0.95 --coverage 0.95 --filter_method relaxed
