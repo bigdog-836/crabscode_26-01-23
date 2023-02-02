@@ -63,3 +63,7 @@
 ## insilico_pcr (Table 1 https://onlinelibrary-wiley-com.ezproxy.otago.ac.nz/doi/pdf/10.1002/ece3.7658)
 
 26) crabs insilico_pcr --input merged_total.fasta --output pcr_16s_Ac16s.fasta --fwd CCTTTTGCATCATGATTTAGC --rev CAGGTGGCTGCTTTTAGGC --error 4.5
+
+## pga
+
+27) crabs pga --input input.fasta --output output.fasta --database insilico_pcr_database.fasta --fwd AGTC --rev ATGC --speed medium --percid 0.95 --coverage 0.95 --filter_method relaxed
