@@ -70,4 +70,4 @@
 
 ## assign_tax
 
-28) crabs assign_tax --input input.fasta --output output.tsv --acc2tax nucl_gb.accession2taxid --taxid nodes.dmp --name names.dmp --missing missing_taxa.tsv
+28) crabs assign_tax --input pga_Cytb_Tania.fasta --output Cytb_Tania.tsv --acc2tax ../nucl_gb.accession2taxid --taxid ../nodes.dmp --name ../names.dmp --missing missing_taxa_Cytb_Tania.tsv
