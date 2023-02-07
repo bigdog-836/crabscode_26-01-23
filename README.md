@@ -67,3 +67,7 @@
 ## pga
 
 27) crabs pga --input ../merged_total.fasta --database pcr_Cytb_Tania.fasta --output pga_Cytb_Tania.fasta --fwd GAAAAACCACCGTTGTTATTCA --rev CGACTTCCGGATTACAAGACC --speed medium --percid 0.95 --coverage 0.95 --filter_method relaxed
+
+## assign_tax
+
+28) crabs assign_tax --input input.fasta --output output.tsv --acc2tax nucl_gb.accession2taxid --taxid nodes.dmp --name names.dmp --missing missing_taxa.tsv
