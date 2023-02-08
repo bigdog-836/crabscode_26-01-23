@@ -74,4 +74,4 @@
 
 ## dereplicate
 
-29) crabs dereplicate --input input.tsv --output output.tsv --method uniq_species
+29) crabs dereplicate --input Cytb_Tania.tsv --output Derep_Cytb_Tania.tsv --method uniq_species
