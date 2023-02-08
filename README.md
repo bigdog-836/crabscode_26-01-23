@@ -75,3 +75,7 @@
 ## dereplicate
 
 29) crabs dereplicate --input Cytb_Tania.tsv --output Derep_Cytb_Tania.tsv --method uniq_species
+
+## seq_cleanup
+
+30) crabs seq_cleanup --input input.tsv --output output.tsv --minlen 100 --maxlen 500 --maxns 0 --enviro yes --species yes --nans 0
