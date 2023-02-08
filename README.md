@@ -71,3 +71,7 @@
 ## assign_tax
 
 28) crabs assign_tax --input pga_Cytb_Tania.fasta --output Cytb_Tania.tsv --acc2tax ../nucl_gb.accession2taxid --taxid ../nodes.dmp --name ../names.dmp --missing missing_taxa_Cytb_Tania.tsv
+
+## dereplicate
+
+29) crabs dereplicate --input input.tsv --output output.tsv --method uniq_species
